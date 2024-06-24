@@ -6,7 +6,7 @@ This repository contains the code and datasets for the research on a lightweight
 
 ### 1. Augmented_Dataset
 This folder includes the dataset that has been augmented using random rotation and brightness and contrast adjustment from the original dataset. The augmented data is used to improve the training process and model performance.
-The original dataset can be download [here]([https://docs.anaconda.com/anaconda/install/](https://www.kaggle.com/datasets/ashishmotwani/tomato))
+The original dataset can be download [here](https://www.kaggle.com/datasets/ashishmotwani/tomato)
 
 ### 2. src
 The `src` folder contains the source code for training and validating the models.
