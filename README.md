@@ -45,8 +45,19 @@ Clone the repository to your local machine:
 ```sh
 git clone https://github.com/MShakiba-Research/Lightweight-CNN-RNN-Model.git
 cd Lightweight-CNN-RNN-Model
+```
 
 ### Setting Up the Environment
 Create a virtual environment and install the required packages:
 ```sh
 pip install -r requirements.txt
+```
+
+### Training
+To train the models, open the Jupyter notebooks located in the src/Training folder and run the corresponding models. The trained model parameters will be saved into corresponding files after training.
+
+### Validation
+To validate the models, open the Jupyter notebooks located in the src/Validation folder and run the cells. The notebooks will load the trained model parameters located in folder "trained_model_parameters" as default and output various performance metrics.
+
+### Results
+Check the ResultLog folder for CSV files containing the results of the trained models' validation.
