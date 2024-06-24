@@ -35,10 +35,18 @@ The `ResultLog` folder contains CSV files storing the results of the five models
 ### Prerequisites
 Ensure you have the following software installed:
 - Python 3.x
+- Jupyter Notebook
 - Required Python packages (see `requirements.txt`)
+
+If you do not have Jupyter Notebook installed, you can set it up using Anaconda. Follow the instructions [here](https://docs.anaconda.com/anaconda/install/) to install Anaconda, which includes Jupyter Notebook.
 
 ### Installation
 Clone the repository to your local machine:
 ```sh
-git clone https://github.com/yourusername/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/MShakiba-Research/Lightweight-CNN-RNN-Model.git
+cd Lightweight-CNN-RNN-Model
+
+### Setting Up the Environment
+Create a virtual environment and install the required packages:
+```sh
+pip install -r requirements.txt
