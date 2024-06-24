@@ -1,0 +1,9 @@
+numpy
+scikit-learn
+Pillow
+tensorflow
+ncps
+matplotlib
+scikit-image
+h5py
+seaborn
